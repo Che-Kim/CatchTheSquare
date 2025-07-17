@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎯 Catch the Square - Ultimate Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-container"></div>
+    
+    <div id="game-container">
+        <div id="header">
+            <h1>🎯 CATCH THE SQUARE</h1>
+            <div id="stats">
+                <div class="stat">
+                    <span class="stat-label">SCORE</span>
+                    <span id="score" class="stat-value">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">TIME</span>
+                    <span id="time" class="stat-value">30</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">COMBO</span>
+                    <span id="combo" class="stat-value">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">LEVEL</span>
+                    <span id="level" class="stat-value">1</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="game-area">
+            <div id="target"></div>
+            <div id="power-up"></div>
+            <div id="combo-text"></div>
+            <div id="floating-text"></div>
+        </div>
+
+        <div id="controls">
+            <button id="start-btn" class="game-btn">🚀 START GAME</button>
+            <button id="pause-btn" class="game-btn" disabled>⏸️ PAUSE</button>
+            <button id="restart-btn" class="game-btn">🔄 RESTART</button>
+        </div>
+
+        <div id="power-ups-display">
+            <div class="power-up-item" id="speed-boost">
+                <span class="power-up-icon">⚡</span>
+                <span class="power-up-count">0</span>
+            </div>
+            <div class="power-up-item" id="time-freeze">
+                <span class="power-up-icon">❄️</span>
+                <span class="power-up-count">0</span>
+            </div>
+            <div class="power-up-item" id="double-points">
+                <span class="power-up-icon">💎</span>
+                <span class="power-up-count">0</span>
+            </div>
+        </div>
+
+        <div id="game-over-screen" class="hidden">
+            <div class="game-over-content">
+                <h2>🎮 GAME OVER</h2>
+                <div class="final-stats">
+                    <p>Final Score: <span id="final-score">0</span></p>
+                    <p>Max Combo: <span id="final-combo">0</span></p>
+                    <p>Level Reached: <span id="final-level">1</span></p>
+                </div>
+                <button id="play-again-btn" class="game-btn">🎯 PLAY AGAIN</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="instructions">
+        <h3>🎮 How to Play</h3>
+        <ul>
+            <li>Click the targets to score points</li>
+            <li>Build combos for bonus points</li>
+            <li>Collect power-ups for special abilities</li>
+            <li>⚡ Speed Boost: Faster target movement</li>
+            <li>❄️ Time Freeze: Pause the timer</li>
+            <li>💎 Double Points: 2x points for 10 seconds</li>
+        </ul>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

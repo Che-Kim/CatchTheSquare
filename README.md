@@ -1,6 +1,7 @@
 # 🎮 Catch the Square
 
 A fast paced browser game where you click dynamic targets to earn points, activate power ups, and level up! Built to test your reflexes and reward combos, with a sleek UI and responsive gameplay.
+
 🔗 https://che-kim.github.io/CatchTheSquare/
 
 🛠 How It's Made

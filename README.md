@@ -12,7 +12,7 @@ HTML creates the structure of the game interface : game board, score display, an
 CSS styles everything from layout to animations, with gradients, responsive scaling, and visual effects to create an exciting arcade feel.
 JavaScript handles all game logic : state transitions (start, pause, resume, game over), event listeners for interaction, DOM manipulation for targets, power-up generation, combo calculation, and UI updates.
 
-# Core Features:
+Core Features:
 Multiple target types (normal, special, golden) with different behaviors and scoring
 Combo & level progression system that increases difficulty and rewards
 Power ups: speed boost, time freeze, and double points

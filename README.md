@@ -1,1 +1,2 @@
-# CatchTheSquare
+# 🎮 Catch the Square
+

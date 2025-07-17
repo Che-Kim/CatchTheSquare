@@ -15,17 +15,6 @@ CSS styles everything from layout to animations, with gradients, responsive scal
 
 JavaScript handles all game logic : state transitions (start, pause, resume, game over), event listeners for interaction, DOM manipulation for targets, power-up generation, combo calculation, and UI updates.
 
-Core Features:
-Multiple target types (normal, special, golden) with different behaviors and scoring
-
-Combo & level progression system that increases difficulty and rewards
-
-Power ups: speed boost, time freeze, and double points
-
-Floating text animations, responsive controls, and audio effects
-
-Full game loop: start, pause, resume, and restart
-
 # ⚙️ Optimizations
 DOM Efficiency: Used class toggling and minimized direct DOM changes to reduce rendering overhead.
 

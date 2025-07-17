@@ -4,7 +4,7 @@ A fast paced browser game where you click dynamic targets to earn points, activa
 
 🔗 https://che-kim.github.io/CatchTheSquare/
 
-🛠 How It's Made
+# 🛠 How It's Made
 Tech used: HTML, CSS, JavaScript 
 
 This project was built entirely with vanilla web technologies to show strong foundational skills in front-end development.
@@ -12,20 +12,20 @@ HTML creates the structure of the game interface : game board, score display, an
 CSS styles everything from layout to animations, with gradients, responsive scaling, and visual effects to create an exciting arcade feel.
 JavaScript handles all game logic : state transitions (start, pause, resume, game over), event listeners for interaction, DOM manipulation for targets, power-up generation, combo calculation, and UI updates.
 
-Core Features:
+# Core Features:
 Multiple target types (normal, special, golden) with different behaviors and scoring
 Combo & level progression system that increases difficulty and rewards
 Power ups: speed boost, time freeze, and double points
 Floating text animations, responsive controls, and audio effects
 Full game loop: start, pause, resume, and restart
 
-⚙️ Optimizations
+# ⚙️ Optimizations
 DOM Efficiency: Used class toggling and minimized direct DOM changes to reduce rendering overhead.
 Interval Management: Built a system to track and clear all timeouts/intervals precisely : no duplicate timers or memory leaks.
 Responsive Gameplay: Media queries and flexible layout ensure the game scales across desktop and mobile.
 Modular Code: Separated game logic, UI handling, and styling to keep code organized and maintainable.
 
-📚 Lessons Learned
+# 📚 Lessons Learned
 Managing Game State Matters: Creating reliable systems for pausing, resuming, and resetting the game taught me the importance of clean state transitions and variable resets.
 UI Feedback is Everything: Adding visual cues like animations, score flashes, and particle effects significantly boosted engagement and polish.
 Edge Case Handling: Unexpected interactions (like rapid clicks or pausing mid animation) helped me understand the need for error handling and careful interval cleanup.
